@@ -1,0 +1,31 @@
+{
+  "name": "karma-react-boilerplate",
+  "version": "0.0.0",
+  "description": "Test react with karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hulufei/karma-react-boilerplate.git"
+  },
+  "keywords": [
+    "karma",
+    "react",
+    "webpack",
+    "phantomjs"
+  ],
+  "author": "hulufei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hulufei/karma-react-boilerplate/issues"
+  },
+  "devDependencies": {
+    "karma-chai-plugins": "~0.2.3",
+    "mocha": "~2.0.1",
+    "karma": "~0.12.25",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-mocha": "~0.1.9"
+  }
+}
